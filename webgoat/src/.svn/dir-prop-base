@@ -1,0 +1,17 @@
+K 10
+svn:ignore
+V 86
+Paros
+webscarab
+workspace
+eclipse
+java
+commons-validator-1.3.1
+FirefoxPortable
+tomcat
+
+K 13
+svn:mergeinfo
+V 0
+
+END
