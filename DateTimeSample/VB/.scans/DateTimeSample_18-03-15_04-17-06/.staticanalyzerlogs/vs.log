@@ -1,0 +1,35 @@
+**********START LOG SESSION: 15-03-2018 16:17:11
+
+15-03-2018 16:17:11
+INFO: Identifying targets ...
+
+**********END LOG SESSION**********
+
+15-03-2018 16:17:15
+INFO: Adding scan target DateTimeSample.exe
+
+15-03-2018 16:17:15
+INFO: Preparing for static analysis ...
+
+15-03-2018 16:17:15
+INFO: Processing target (1 of 1)
+
+15-03-2018 16:17:15
+INFO: Performing Framework Analysis for setting 'frameworksCLI'...
+
+15-03-2018 16:17:30
+INFO: Completed Framework Analysis
+
+15-03-2018 16:17:30
+INFO: Processing file DateTimeSample.exe (1 of 1)
+
+15-03-2018 16:17:41
+INFO: Writing the internal artifact...
+
+15-03-2018 16:17:44
+INFO: Completed writing the internal artifact
+
+15-03-2018 16:17:47
+INFO: Successfully generated C:\DateTime and TimeSpan Sample\VB\.scans\DateTimeSample_18-03-15_04-17-06\DateTimeSample.irx
+
+**********END LOG SESSION**********

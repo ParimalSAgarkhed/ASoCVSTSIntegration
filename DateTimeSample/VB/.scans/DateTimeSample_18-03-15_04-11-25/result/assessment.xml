@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<AnalysisResult name="" version="1.0">
+  <AnalysisResultDetails date="1521110610" total_classes="0" duration="0" error_status="0" line_total="0" total_call_sites="0" total_call_sites_informational="0" total_call_sites_not_vulnerable="0" max_vdensity="0" max_vkloc="0" total_methods="0" total_high_high_findings="1" total_high_medium_findings="0" total_high_low_findings="0" total_medium_high_findings="0" total_medium_medium_findings="11" total_medium_low_findings="0" total_low_high_findings="0" total_low_medium_findings="0" total_low_low_findings="0" total_high_findings="1" total_medium_findings="11" total_low_findings="0" total_info_findings="0" total_findings="12">
+    <VulnType name="Vulnerability.Authentication.Credentials.Unprotected.Transport" total_high_findings="0" total_medium_findings="1" total_low_findings="0"/>
+    <VulnType name="Vulnerability.ErrorHandling.RevealDetails.Message" total_high_findings="0" total_medium_findings="10" total_low_findings="0"/>
+    <VulnType name="Vulnerability.Validation.Required" total_high_findings="1" total_medium_findings="0" total_low_findings="0"/>
+  </AnalysisResultDetails>
+  <SharedDataDetails total_objects="77"/>
+  <StringPool>
+    <String id="1" value=""/>
+    <String id="2" value="DateTimeSample.MainForm.LoadTimeSpanFields():System.Void"/>
+    <String id="3" value="System.Exception"/>
+    <String id="4" value="ex . System.Exception.get_Message ()"/>
+    <String id="5" value="System.Exception.get_Message"/>
+    <String id="6" value="System.Exception.get_Message():System.String"/>
+    <String id="7" value="DotNet"/>
+    <String id="8" value="Vulnerability.ErrorHandling.RevealDetails.Message"/>
+    <String id="9" value="Medium"/>
+    <String id="10" value=""/>
+    <String id="11" value="DateTimeSample.MainForm.btnRefreshTSProperties_Click(System.Object;System.EventArgs):System.Void"/>
+    <String id="12" value="Ex . System.Exception.get_Message ()"/>
+    <String id="13" value="DateTimeSample.MainForm.btnCalcParse_Click(System.Object;System.EventArgs):System.Void"/>
+    <String id="14" value="DateTimeSample.MainForm.LoadConversionMethods():System.Void"/>
+    <String id="15" value="DateTimeSample.MainForm.LoadProperties():System.Void"/>
+    <String id="16" value="DateTimeSample.MainForm.DisplayTSProperties(System.TimeSpan):System.Void"/>
+    <String id="17" value="DateTimeSample.My.MyApplication.Main(System.String[]):System.Void"/>
+    <String id="18" value="Microsoft.VisualBasic.ApplicationServices.WindowsFormsApplicationBase"/>
+    <String id="19" value="DateTimeSample.My.MyProject.get_Application() . Microsoft.VisualBasic.ApplicationServices.WindowsFormsApplicationBase.Run ( Args )"/>
+    <String id="20" value="Microsoft.VisualBasic.ApplicationServices.WindowsFormsApplicationBase.Run"/>
+    <String id="21" value="Microsoft.VisualBasic.ApplicationServices.WindowsFormsApplicationBase.Run(System.String[]):System.Void"/>
+    <String id="22" value="Vulnerability.Authentication.Credentials.Unprotected.Transport"/>
+    <String id="23" value="DateTimeSample.MainForm.LoadTSMethods():System.Void"/>
+    <String id="24" value="Vulnerability.Validation.Required"/>
+    <String id="25" value="High"/>
+    <String id="26" value="&lt;external_caller&gt;"/>
+    <String id="27" value="&lt;external_caller&gt;():void"/>
+    <String id="28" value="None"/>
+    <String id="29" value="&lt;external_source&gt; ( Args )"/>
+    <String id="30" value="&lt;external_source&gt;"/>
+    <String id="31" value="&lt;external_source&gt;(...):void"/>
+    <String id="32" value="Args"/>
+    <String id="33" value="Up"/>
+    <String id="34" value="Source"/>
+    <String id="35" value="DateTimeSample.My.MyApplication"/>
+    <String id="36" value="DateTimeSample.My.MyApplication.Main ( Args )"/>
+    <String id="37" value="DateTimeSample.My.MyApplication.Main"/>
+    <String id="38" value="Down"/>
+    <String id="39" value="NotAValidator"/>
+    <String id="40" value="Sink"/>
+    <String id="41" value="DateTimeSample.MainForm.LoadCalculationMethods():System.Void"/>
+    <String id="42" value="DateTimeSample.MainForm.LoadSharedMembers():System.Void"/>
+    <String id="43" value="DateTimeSample.My.MyProject+MyForms.Create__Instance__&lt;DateTimeSample.MainForm&gt;(DateTimeSample.MainForm):DateTimeSample.MainForm"/>
+    <String id="44" value="Local#4 -&gt; System.Exception.get_InnerException() . System.Exception.get_Message ()"/>
+  </StringPool>
+  <FilePool>
+    <File id="1" value=""/>
+    <File id="2" value="C:\Users\parimal.s\Downloads\Official Visual Studio 2008 VB.NET Samples\DateTime and TimeSpan Sample\VB\MainForm.vb"/>
+    <File id="3" value="C:\DateTime and TimeSpan Sample\VB\bin\Debug\DateTimeSample.exe"/>
+  </FilePool>
+  <SitePool>
+    <Site caller_id="2" class_id="3" context_id="4" file_id="2" id="1" language_id="7" line="191" method_id="5" ordinal="1" signature_id="6" col="13"/>
+    <Site caller_id="11" class_id="3" context_id="12" file_id="2" id="2" language_id="7" line="261" method_id="5" ordinal="1" signature_id="6" col="13"/>
+    <Site caller_id="13" class_id="3" context_id="4" file_id="2" id="3" language_id="7" line="279" method_id="5" ordinal="1" signature_id="6" col="13"/>
+    <Site caller_id="14" class_id="3" context_id="4" file_id="2" id="4" language_id="7" line="89" method_id="5" ordinal="1" signature_id="6" col="13"/>
+    <Site caller_id="15" class_id="3" context_id="4" file_id="2" id="5" language_id="7" line="130" method_id="5" ordinal="1" signature_id="6" col="13"/>
+    <Site caller_id="16" class_id="3" context_id="4" file_id="2" id="6" language_id="7" line="31" method_id="5" ordinal="1" signature_id="6" col="13"/>
+    <Site caller_id="17" class_id="18" context_id="19" file_id="3" id="7" language_id="7" line="0" method_id="20" ordinal="1" signature_id="21"/>
+    <Site caller_id="23" class_id="3" context_id="4" file_id="2" id="8" language_id="7" line="212" method_id="5" ordinal="1" signature_id="6" col="13"/>
+    <Site caller_id="1" class_id="1" context_id="1" file_id="3" id="9" language_id="7" line="0" method_id="26" ordinal="1" signature_id="27"/>
+    <Site caller_id="27" class_id="1" context_id="29" file_id="3" id="10" language_id="7" line="0" method_id="30" ordinal="1" signature_id="31"/>
+    <Site caller_id="27" class_id="35" context_id="36" file_id="3" id="11" language_id="7" line="0" method_id="37" ordinal="1" signature_id="17"/>
+    <Site caller_id="41" class_id="3" context_id="4" file_id="2" id="12" language_id="7" line="59" method_id="5" ordinal="1" signature_id="6" col="13"/>
+    <Site caller_id="42" class_id="3" context_id="4" file_id="2" id="13" language_id="7" line="166" method_id="5" ordinal="1" signature_id="6" col="13"/>
+    <Site caller_id="43" class_id="3" context_id="44" file_id="3" id="14" language_id="7" line="0" method_id="5" ordinal="1" signature_id="6"/>
+  </SitePool>
+  <TaintPool>
+    <Taint arg="-1" direction_id="28" id="1" name_id="1" site_id="9" trace_type_id="28"/>
+    <Taint arg="1" direction_id="33" id="2" name_id="32" site_id="10" trace_type_id="34"/>
+    <Taint arg="1" direction_id="38" id="3" name_id="32" site_id="11" trace_type_id="39"/>
+    <Taint arg="2" direction_id="38" id="4" name_id="32" site_id="7" trace_type_id="40"/>
+  </TaintPool>
+  <FindingDataPool>
+    <FindingData ao_id="9" confidence_id="9" id="1" method_id="461" severity_id="9" site_id="1" vtype_id="8" prop_ids="">
+      <Property name="description" value="AppScan IFA Note: Medium severity no-trace finding"/>
+    </FindingData>
+    <FindingData ao_id="9" confidence_id="9" id="2" method_id="461" severity_id="9" site_id="2" vtype_id="8" prop_ids="">
+      <Property name="description" value="AppScan IFA Note: Medium severity no-trace finding"/>
+    </FindingData>
+    <FindingData ao_id="9" confidence_id="9" id="3" method_id="461" severity_id="9" site_id="3" vtype_id="8" prop_ids="">
+      <Property name="description" value="AppScan IFA Note: Medium severity no-trace finding"/>
+    </FindingData>
+    <FindingData ao_id="9" confidence_id="9" id="4" method_id="461" severity_id="9" site_id="4" vtype_id="8" prop_ids="">
+      <Property name="description" value="AppScan IFA Note: Medium severity no-trace finding"/>
+    </FindingData>
+    <FindingData ao_id="9" confidence_id="9" id="5" method_id="461" severity_id="9" site_id="5" vtype_id="8" prop_ids="">
+      <Property name="description" value="AppScan IFA Note: Medium severity no-trace finding"/>
+    </FindingData>
+    <FindingData ao_id="9" confidence_id="9" id="6" method_id="461" severity_id="9" site_id="6" vtype_id="8" prop_ids="">
+      <Property name="description" value="AppScan IFA Note: Medium severity no-trace finding"/>
+    </FindingData>
+    <FindingData ao_id="9" confidence_id="9" id="7" method_id="388" severity_id="9" site_id="7" vtype_id="22" prop_ids="">
+      <Property name="description" value="AppScan IFA Note: Medium severity no-trace finding"/>
+    </FindingData>
+    <FindingData ao_id="9" confidence_id="9" id="8" method_id="461" severity_id="9" site_id="8" vtype_id="8" prop_ids="">
+      <Property name="description" value="AppScan IFA Note: Medium severity no-trace finding"/>
+    </FindingData>
+    <FindingData ao_id="409" confidence_id="25" id="9" method_id="388" severity_id="25" site_id="7" vtype_id="24" prop_ids="">
+      <Property name="description" value="AppScan IFA Note: 79% probability of correctly identified as an interesting finding using supplied training set."/>
+    </FindingData>
+    <FindingData ao_id="9" confidence_id="9" id="10" method_id="461" severity_id="9" site_id="12" vtype_id="8" prop_ids="">
+      <Property name="description" value="AppScan IFA Note: Medium severity no-trace finding"/>
+    </FindingData>
+    <FindingData ao_id="9" confidence_id="9" id="11" method_id="461" severity_id="9" site_id="13" vtype_id="8" prop_ids="">
+      <Property name="description" value="AppScan IFA Note: Medium severity no-trace finding"/>
+    </FindingData>
+    <FindingData ao_id="9" confidence_id="9" id="12" method_id="461" severity_id="9" site_id="14" vtype_id="8" prop_ids="">
+      <Property name="description" value="AppScan IFA Note: Medium severity no-trace finding"/>
+    </FindingData>
+  </FindingDataPool>
+  <AnalysisResultFile file_id="2">
+    <AnalysisResultDetails total_lines="0"/>
+    <Finding data_id="1"/>
+    <Finding data_id="2"/>
+    <Finding data_id="3"/>
+    <Finding data_id="4"/>
+    <Finding data_id="5"/>
+    <Finding data_id="6"/>
+    <Finding data_id="8"/>
+    <Finding data_id="10"/>
+    <Finding data_id="11"/>
+  </AnalysisResultFile>
+  <AnalysisResultFile file_id="3">
+    <AnalysisResultDetails total_lines="0"/>
+    <Finding data_id="7"/>
+    <Finding data_id="9" trace="1,2.,3,4.."/>
+    <Finding data_id="12"/>
+  </AnalysisResultFile>
+</AnalysisResult>
