@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{FE3D4450-2D51-4AAC-98CC-7D4E13425EB2}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>SimpleIOT</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>SimpleIOT</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <OldToolsVersion>2.0</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="TestCase_IOT_Array.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TestCase_IOT_Branching.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TestCase_IOT_Instance.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TestCase_IOT_Instance_Assigns.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TestCase_IOT_Instance_Val_Confidence.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TestCase_IOT_Instance_Val_Encode.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TestCase_IOT_List.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TestCase_IOT_Looping.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TestCase_IOT_Lost_Instance.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TestCase_IOT_Lost_MemberTaint.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TestCase_IOT_Lost_XFile_Part1.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TestCase_IOT_Lost_XFile_Part2.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TestCase_IOT_MediumCallStack.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TestCase_IOT_MemberTaint.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TestCase_IOT_MemberTaint_OutParam.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TestCase_IOT_OverlapTrace.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TestCase_IOT_Recursion.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TestCase_IOT_Simple_Validation.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TestCase_IOT_Static.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TestCase_IOT_Static_Assigns.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TestCase_IOT_UserValidation.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TestCase_IOT_UserValidation2.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TestCase_IOT_XFile_Part1.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TestCase_IOT_XFile_Part2.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TestCase_IOT_XFile_Val_Part1.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

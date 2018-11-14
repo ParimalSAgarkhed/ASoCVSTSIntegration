@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FrameworkInput type="DotNet" xmlns="http://www.ibm.com/FrameworkInput">
+	<WaflFile>C:\Users\IBM_ADMIN\Desktop\Stuff\AppScan_Source\SampleApps\SimpleIOTdotNet\SimpleIOTdotNet\SimpleIOT\SimpleIOT_cs_frameworksCLIDotNet.wafl</WaflFile>
+	<LogConfig>C:\Users\IBM_ADMIN\Desktop\Stuff\AppScan_Source\SampleApps\SimpleIOTdotNet\SimpleIOTdotNet\SimpleIOT\SimpleIOT_cs_frameworksCLIDotNet_waflLogConfig.xml</LogConfig>
+	<HandlerJarDir>C:\Development\Lonestar\build\release\engine\waflgens</HandlerJarDir>
+	<ProjectFile>C:\Users\IBM_ADMIN\Desktop\Stuff\AppScan_Source\SampleApps\SimpleIOTdotNet\SimpleIOTdotNet\SimpleIOT\SimpleIOT_cs.csproj</ProjectFile>
+	<DotNetInfo>
+		<WalaScopeFile>C:\Development\Lonestar\build\release\engine\temp\SimpleIOT_cs.scope</WalaScopeFile>
+		<Options>
+			<Property name="aspnet.precompile.dir" value="C:\Users\IBM_ADMIN\Desktop\Stuff\AppScan_Source\SampleApps\SimpleIOTdotNet\SimpleIOTdotNet\SimpleIOT"></Property>
+			<Property name="application.file" value="C:\Users\IBM_ADMIN\Desktop\Stuff\AppScan_Source\SampleApps\SimpleIOTdotNet\SimpleIOTdotNet\SimpleIOT\SimpleIOT_cs.sln"></Property>
+			<Property name="project.configuration" value="Debug"></Property>
+		</Options>
+	</DotNetInfo>
+</FrameworkInput>
